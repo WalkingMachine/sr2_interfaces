@@ -21,10 +21,17 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/JointChange.msg"
+  "msg/Heartbeat.msg"
+  )
+
+set(action_files
+  "action/Gripper.action"
   )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${action_files}
   )
 
+ament_export_dependencies(rosidl_default_runtime)
 ament_package()

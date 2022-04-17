@@ -1,0 +1,15 @@
+# request constansts
+float32 OPEN=0.085
+float32 CLOSE=0.0
+# request parameters
+float32 pos
+float32 vel 0.1
+float32 force 5.0
+---
+# result parameters
+float32 final_pos
+bool obj_detected False
+---
+# feedback parameters
+float32 cur_pos
+bool obj_detected False
