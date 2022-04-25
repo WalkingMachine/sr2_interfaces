@@ -24,6 +24,7 @@ set(msg_files
   "msg/Heartbeat.msg"
   "msg/MoveJoint.msg"
   "msg/ArmControl.msg"
+  "msg/Teleop.msg"
   )
 
 set(action_files

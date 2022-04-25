@@ -15,7 +15,7 @@ int8 change
 # msg for kinova
 bool kinova_move False
 int8 direction
-int8 speed
+float32 speed
 
 # msg for gripper
 bool gripper False

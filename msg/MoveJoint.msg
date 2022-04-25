@@ -1,3 +1,3 @@
 # This message moves a joint.
 
-int8 speed
+float32 speed 0.0
