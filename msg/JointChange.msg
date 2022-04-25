@@ -3,9 +3,10 @@
 # Constants
 bool UP=True
 bool DOWN=False
-bool SET=False
 
 # msg
 bool index_change
+
+bool set False
 int8 set_index 0
 
